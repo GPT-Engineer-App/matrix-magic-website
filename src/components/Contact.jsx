@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { useInView } from "react-intersection-observer";
 
 const Contact = () => {
   const [ref, inView] = useInView({
